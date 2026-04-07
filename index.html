@@ -3,296 +3,338 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dr. Alisson Fortes | Guia de Puericultura e Amamentação</title>
-    <meta name="description" content="Aprenda a decifrar o choro, o sono e a amamentar com confiança. O guia definitivo do Dr. Alisson Fortes para pais de recém-nascidos.">
+    <title>Dr. Alisson Fortes | Guia Premium de Puericultura</title>
+    <meta name="description" content="O guia definitivo do Dr. Alisson Fortes para pais de recém-nascidos. Aprenda a decifrar o choro, o sono e a amamentar com confiança.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="floating-shapes">
-        <div class="shape shape-1"></div>
-        <div class="shape shape-2"></div>
-        <div class="shape shape-3"></div>
+    <div class="background-effects">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
     </div>
+
+    <div class="grain-overlay"></div>
 
     <nav class="navbar">
         <div class="container nav-container">
             <a href="#" class="logo">
-                <span class="logo-icon"><i class="fas fa-baby"></i></span>
-                <span class="logo-text">Dr. Alisson Fortes</span>
+                <div class="logo-mark">
+                    <span>AF</span>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">Dr. Alisson Fortes</span>
+                    <span class="logo-subtitle">Pediatra & Neonatologista</span>
+                </div>
             </a>
             <div class="nav-links">
                 <a href="#beneficios">Benefícios</a>
+                <a href="#conteudo">Conteúdo</a>
                 <a href="#sobre">Sobre</a>
-                <a href="#ebook">O Ebook</a>
                 <a href="#depoimentos">Depoimentos</a>
             </div>
-            <a href="#comprar" class="btn btn-primary nav-btn">QUERO O GUIA</a>
-            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <a href="#comprar" class="btn btn-primary">
+                <span>Garantir Vaga</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+            <button class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
     <header class="hero">
-        <div class="hero-bg"></div>
-        <div class="container hero-container">
+        <div class="hero-particles" id="particles"></div>
+        <div class="container hero-grid">
             <div class="hero-content">
                 <div class="hero-badge">
-                    <span class="badge-dot"></span>
-                    <span>Lançamento Especial</span>
+                    <span class="badge-pulse"></span>
+                    <span>Lançamento Exclusivo</span>
                 </div>
                 <h1 class="hero-title">
-                    Decifre o Seu Bebê e Amamente com <span class="highlight">Confiança</span>
+                    Descubra o <span class="text-gradient">Segredo</span> para<br>
+                    Criar Bebês Mais Tranquilos
                 </h1>
-                <p class="hero-subtitle">
-                    O guia prático de puericultura feito para pais que buscam segurança, noites mais tranquilas e um desenvolvimento saudável para o seu filho.
+                <p class="hero-description">
+                    O guia <strong>premium</strong> de puericultura que transforma pais inseguros em mães e pais confiantes. Baseado em +15 anos de experiência clínica.
                 </p>
                 <div class="hero-stats">
-                    <div class="stat">
-                        <span class="stat-number">10.000+</span>
-                        <span class="stat-label">Pais helped</span>
+                    <div class="stat-item">
+                        <span class="stat-value">10.000+</span>
+                        <span class="stat-label">Famílias Impactadas</span>
                     </div>
-                    <div class="stat">
-                        <span class="stat-number">15+</span>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value">15+</span>
                         <span class="stat-label">Anos de Experiência</span>
                     </div>
-                    <div class="stat">
-                        <span class="stat-number">4.9</span>
-                        <span class="stat-label">Avaliação</span>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-value">4.9★</span>
+                        <span class="stat-label">Avaliação Média</span>
                     </div>
                 </div>
-                <div class="hero-buttons">
-                    <a href="#comprar" class="btn btn-primary btn-lg">
-                        <i class="fas fa-rocket"></i> QUERO O MEU GUIA
+                <div class="hero-actions">
+                    <a href="#comprar" class="btn btn-primary btn-large">
+                        <span>Quero o Guia</span>
+                        <i class="fas fa-gift"></i>
                     </a>
-                    <a href="#ebook" class="btn btn-outline btn-lg">
-                        <i class="fas fa-play"></i> VER DETALHES
+                    <a href="#conteudo" class="btn btn-ghost">
+                        <span>Ver Conteúdo</span>
                     </a>
                 </div>
-                <div class="hero-trust">
-                    <i class="fas fa-shield-alt"></i>
-                    <span>100% Satisfação ou Dinheiro de Volta</span>
+                <div class="hero-guarantee">
+                    <div class="guarantee-icon">
+                        <i class="fas fa-shield-check"></i>
+                    </div>
+                    <div class="guarantee-text">
+                        <strong>Garantia de 7 Dias</strong>
+                        <span>Satisfação 100% ou dinheiro de volta</span>
+                    </div>
                 </div>
             </div>
             <div class="hero-visual">
-                <div class="ebook-mockup">
-                    <div class="ebook-cover">
-                        <div class="ebook-spine"></div>
-                        <div class="ebook-content">
-                            <span class="ebook-tag">EBOOK</span>
-                            <h3>Guia de</h3>
-                            <h2>Puericultura</h2>
-                            <p>Dr. Alisson Fortes</p>
-                            <div class="ebook-icon"><i class="fas fa-baby-carriage"></i></div>
+                <div class="ebook-showcase">
+                    <div class="ebook-device">
+                        <img src="Documento/Capa do ebook.png" alt="Guia de Puericultura Premium" class="ebook-cover">
+                        <div class="ebook-glow"></div>
+                    </div>
+                    <div class="floating-element fe-1">
+                        <div class="fe-icon"><i class="fas fa-baby"></i></div>
+                        <div class="fe-text">
+                            <span class="fe-title">Amamentação</span>
+                            <span class="fe-sub">Pega Correta</span>
                         </div>
                     </div>
-                </div>
-                <div class="floating-card card-1">
-                    <i class="fas fa-check-circle"></i>
-                    <span>Amamentação Eficaz</span>
-                </div>
-                <div class="floating-card card-2">
-                    <i class="fas fa-moon"></i>
-                    <span>Sono do Bebê</span>
-                </div>
-                <div class="floating-card card-3">
-                    <i class="fas fa-heart"></i>
-                    <span>Sinais de Alerta</span>
+                    <div class="floating-element fe-2">
+                        <div class="fe-icon"><i class="fas fa-moon"></i></div>
+                        <div class="fe-text">
+                            <span class="fe-title">Sono</span>
+                            <span class="fe-sub">Rotina Saudável</span>
+                        </div>
+                    </div>
+                    <div class="floating-element fe-3">
+                        <div class="fe-icon"><i class="fas fa-heart-pulse"></i></div>
+                        <div class="fe-text">
+                            <span class="fe-title">Saúde</span>
+                            <span class="fe-sub">Sinais de Alerta</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <section class="problems-section">
+    <section class="problems-section" id="problemas">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">PROBLEMAS COMUNS</span>
-                <h2>Você está vivendo esses momentos difíceis?</h2>
+                <span class="section-label">DESAFIOS DOS PAIS</span>
+                <h2>Você se identifica com algum desses momentos?</h2>
+                <p class="section-subtitle">Esses são os principais desafios que ouvimos todos os dias em nossa clínica</p>
             </div>
             <div class="problems-grid">
                 <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-tired"></i></div>
-                    <h3>"Meu baby chora o tempo todo e eu não sei o que fazer"</h3>
-                    <p>O choro é a única linguagem do seu filho. Aprenda a decifrar cada tipo de choro e responder de forma assertiva.</p>
+                    <div class="pc-icon"><i class="fas fa-tear"></i></div>
+                    <div class="pc-content">
+                        <h3>"Meu bebê chora sem parar e eu não sei o que fazer"</h3>
+                        <p>O choro é a única forma de comunicação do seu filho. Aprenda a decifrar cada tipo e responder de forma assertiva.</p>
+                    </div>
+                    <div class="pc-number">01</div>
                 </div>
                 <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-sleeping"></i></div>
-                    <h3>"As noites são um pesadelo, nenhum de nós dorme"</h3>
-                    <p>Descubra os sinais de cansaço antes que virem uma crise e crie uma rotina de sono saudável.</p>
+                    <div class="pc-icon"><i class="fas fa-moon"></i></div>
+                    <div class="pc-content">
+                        <h3>"As noites são um pesadelo, ninguém dorme"</h3>
+                        <p>Descubra os sinais de cansaço antes que virem crises e crie uma rotina de sono que funciona.</p>
+                    </div>
+                    <div class="pc-number">02</div>
                 </div>
                 <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-baby"></i></div>
-                    <h3>"Tenho medo de estar fazendo algo errado"</h3>
-                    <p>Tenha orientações médicas claras e confiança para tomar as melhores decisões pelo seu filho.</p>
+                    <div class="pc-icon"><i class="fas fa-brain"></i></div>
+                    <div class="pc-content">
+                        <h3>"Tenho medo de estar fazendo algo errado"</h3>
+                        <p>Tenha orientações médicas claras e a confiança para tomar as melhores decisões pelo seu filho.</p>
+                    </div>
+                    <div class="pc-number">03</div>
                 </div>
                 <div class="problem-card">
-                    <div class="problem-icon"><i class="fas fa-utensils"></i></div>
-                    <h3>"A mamada dói e não sei se o baby está mamando certo"</h3>
-                    <p>Aprenda a técnica correta de amamentação e garantir que seu filho receba todos os nutrientes.</p>
+                    <div class="pc-icon"><i class="fas fa-nursing"></i></div>
+                    <div class="pc-content">
+                        <h3>"A mamada dói e parece que o bebê não mamou"</h3>
+                        <p>Aprenda a técnica correta de amamentação e garanta que seu filho receba todos os nutrientes.</p>
+                    </div>
+                    <div class="pc-number">04</div>
                 </div>
+            </div>
+            <div class="problems-cta">
+                <p>A boa notícia: <strong>com as orientações certas</strong>, você pode transformar esses desafios em momentos de conexão!</p>
             </div>
         </div>
     </section>
 
-    <section id="beneficios" class="benefits-section">
+    <section class="benefits-section" id="beneficios">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">O QUE VOCÊ VAI APRENDER</span>
-                <h2>Conteúdo Que Realmente Transforma</h2>
-                <p>Um guia completo baseado em anos de experiência clínica</p>
+                <span class="section-label">O QUE VOCÊ VAI APRENDER</span>
+                <h2>Conteúdo Que Realmente <span class="text-gradient">Transforma Vidas</span></h2>
+                <p class="section-subtitle">Um guia completo baseado em anos de experiência clínica com milhares de famílias</p>
             </div>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-number">01</div>
-                    <div class="benefit-icon"><i class="fas fa-breastfeeding"></i></div>
-                    <h3>Amamentação Eficaz</h3>
-                    <ul>
-                        <li>Como garantir pega correta</li>
-                        <li>Posições confortáveis</li>
-                        <li>Sinais de saciedade</li>
-                        <li>Como aumentar a produção de leite</li>
-                    </ul>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-number">02</div>
-                    <div class="benefit-icon"><i class="fas fa-moon"></i></div>
-                    <h3>Sono e Descanso</h3>
-                    <ul>
-                        <li>Ciclo de sono do bebê</li>
-                        <li>Sinais de cansaço</li>
-                        <li>Routine noturna</li>
-                        <li>Como diferenciar fome de cansaço</li>
-                    </ul>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-number">03</div>
-                    <div class="benefit-icon"><i class="fas fa-stethoscope"></i></div>
-                    <h3>Puericultura Prática</h3>
-                    <ul>
-                        <li>Sinais de alerta</li>
-                        <li>Curativo de umbilical</li>
-                        <li>Banho seguro</li>
-                        <li>Vacinação em dia</li>
-                    </ul>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-number">04</div>
-                    <div class="benefit-icon"><i class="fas fa-heartbeat"></i></div>
-                    <h3>Saúde e Bem-estar</h3>
-                    <ul>
-                        <li>Crescimento e ganho de peso</li>
-                        <li>Quando buscar ajuda médica</li>
-                        <li>Primeiros socorros</li>
-                        <li>Desenvolvimento motor</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sobre" class="about-section">
-        <div class="container about-container">
-            <div class="about-visual">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop" alt="Dr. Alisson Fortes Pediatra">
-                    <div class="about-badge">
-                        <i class="fas fa-award"></i>
-                        <span>CRM-SP: 123456</span>
+            <div class="benefits-showcase">
+                <div class="benefit-main">
+                    <div class="bm-image">
+                        <img src="Documento/Introdução do ebook.png" alt="Introdução do Ebook">
+                    </div>
+                    <div class="bm-content">
+                        <span class="bm-label">Preview Exclusivo</span>
+                        <h3>Guia Ilustrado e Prático</h3>
+                        <p>Mais de 150 páginas com linguagem acessível, ilustrações e passo a passo claro.</p>
                     </div>
                 </div>
-                <div class="about-experience">
-                    <div class="exp-item">
-                        <span class="exp-number">15+</span>
-                        <span class="exp-label">Anos de Clínica</span>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="bi-icon"><i class="fas fa-breastfeeding"></i></div>
+                        <div class="bi-content">
+                            <h4>Amamentação Eficaz</h4>
+                            <ul>
+                                <li>Pega correta sem dor</li>
+                                <li>Posições confortáveis</li>
+                                <li>Aumentar produção de leite</li>
+                                <li>Desmame saudável</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="exp-item">
-                        <span class="exp-number">5.000+</span>
-                        <span class="exp-label">Bebês Atendidos</span>
+                    <div class="benefit-item">
+                        <div class="bi-icon"><i class="fas fa-bed"></i></div>
+                        <div class="bi-content">
+                            <h4>Sono do Bebê</h4>
+                            <ul>
+                                <li>Ciclos de sono</li>
+                                <li>Sinais de cansaço</li>
+                                <li>Routine noturna</li>
+                                <li>Fome x Cansaço</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="bi-icon"><i class="fas fa-user-md"></i></div>
+                        <div class="bi-content">
+                            <h4>Puericultura Prática</h4>
+                            <ul>
+                                <li>Sinais de alerta</li>
+                                <li>Curativo umbilical</li>
+                                <li>Banho seguro</li>
+                                <li>Vacinação</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="bi-icon"><i class="fas fa-heartbeat"></i></div>
+                        <div class="bi-content">
+                            <h4>Saúde & Bem-estar</h4>
+                            <ul>
+                                <li>Crescimento e peso</li>
+                                <li>Quando buscar ajuda</li>
+                                <li>Primeiros socorros</li>
+                                <li>Desenvolvimento motor</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="about-content">
-                <span class="section-tag">SOBRE O AUTOR</span>
-                <h2>Dr. Alisson Fortes</h2>
-                <p class="about-role">Pediatra e Neonatologista</p>
-                <p class="about-text">
-                    Com mais de 15 anos de experiência em pediatria e neonatologia, o Dr. Alisson Fortes dedicou sua carreira a ajudar pais a navegarem os desafios dos primeiros meses de vida. 
-                </p>
-                <p class="about-text">
-                    Formado pela USP com especialização em cuidados intensivos neonatais, ele entende que cada baby's diferente, mas todos os pais comparten a mesma necessidade: <strong>segurança e confiança</strong>.
-                </p>
-                <div class="about-features">
-                    <div class="af-item">
-                        <i class="fas fa-graduation-cap"></i>
-                        <span>Especialização USP</span>
-                    </div>
-                    <div class="af-item">
-                        <i class="fas fa-hospital"></i>
-                        <span>Maternidade Reference</span>
-                    </div>
-                    <div class="af-item">
-                        <i class="fas fa-users"></i>
-                        <span>5.000+ Famílias Atendidas</span>
-                    </div>
-                </div>
-                <a href="#comprar" class="btn btn-primary">
-                    <i class="fas fa-arrow-right"></i> QUERO CONHECER O GUIA
-                </a>
             </div>
         </div>
     </section>
 
-    <section id="ebook" class="contents-section">
+    <section class="contents-section" id="conteudo">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">O QUE TEM NO EBOOK</span>
-                <h2>Conteúdo Completo do Guia</h2>
+                <span class="section-label">ESTRUTURA DO GUIA</span>
+                <h2>6 Capítulos Que <span class="text-gradient">Mudam Tudo</span></h2>
             </div>
-            <div class="contents-grid">
-                <div class="content-item">
-                    <div class="content-check"><i class="fas fa-check"></i></div>
-                    <div class="content-info">
-                        <h4>Capítulo 1: Amamentação</h4>
-                        <p>Técnica de pega, posições, aumento de produção de leite e resolução de problemas comuns.</p>
+            <div class="contents-timeline">
+                <div class="timeline-item">
+                    <div class="ti-marker">
+                        <span>01</span>
+                    </div>
+                    <div class="ti-content">
+                        <h4>Amamentação</h4>
+                        <p>Técnica de pega, posições, aumento de produção de leite e resolução de problemas comuns como mastite e fissuras.</p>
+                        <div class="ti-features">
+                            <span><i class="fas fa-check"></i> 25 páginas</span>
+                            <span><i class="fas fa-video"></i> Vídeo bônus</span>
+                        </div>
                     </div>
                 </div>
-                <div class="content-item">
-                    <div class="content-check"><i class="fas fa-check"></i></div>
-                    <div class="content-info">
-                        <h4>Capítulo 2: Entendendo o Choro</h4>
-                        <p>Os 5 tipos de choro e como responder a cada um deles de forma efetiva.</p>
+                <div class="timeline-item">
+                    <div class="ti-marker">
+                        <span>02</span>
+                    </div>
+                    <div class="ti-content">
+                        <h4>Entendendo o Choro</h4>
+                        <p>Os 5 tipos de choro e como responder a cada um de forma efetiva. Decode a linguagem do seu bebê.</p>
+                        <div class="ti-features">
+                            <span><i class="fas fa-check"></i> 20 páginas</span>
+                            <span><i class="fas fa-chart-line"></i> Checklist included</span>
+                        </div>
                     </div>
                 </div>
-                <div class="content-item">
-                    <div class="content-check"><i class="fas fa-check"></i></div>
-                    <div class="content-info">
-                        <h4>Capítulo 3: Sono do Bebê</h4>
-                        <p>Ciclos de sono, sinais de cansaço, rotina noturna e como melhorar o descanso de todos.</p>
+                <div class="timeline-item">
+                    <div class="ti-marker">
+                        <span>03</span>
+                    </div>
+                    <div class="ti-content">
+                        <h4>Sono do Bebê</h4>
+                        <p>Ciclos de sono, sinais de cansaço, rotina noturna e como melhorar o descanso de toda a família.</p>
+                        <div class="ti-features">
+                            <span><i class="fas fa-check"></i> 30 páginas</span>
+                            <span><i class="fas fa-clock"></i> Rotina detalhada</span>
+                        </div>
                     </div>
                 </div>
-                <div class="content-item">
-                    <div class="content-check"><i class="fas fa-check"></i></div>
-                    <div class="content-info">
-                        <h4>Capítulo 4: Sinais de Alerta</h4>
-                        <p>Quando buscar ajuda médica, sinais de emergência e monitoramento da saúde.</p>
+                <div class="timeline-item">
+                    <div class="ti-marker">
+                        <span>04</span>
+                    </div>
+                    <div class="ti-content">
+                        <h4>Sinais de Alerta</h4>
+                        <p>Quando buscar ajuda médica, sinais de emergência e monitoramento da saúde do seu filho.</p>
+                        <div class="ti-features">
+                            <span><i class="fas fa-check"></i> 25 páginas</span>
+                            <span><i class="fas fa-exclamation-triangle"></i> Guia de emergências</span>
+                        </div>
                     </div>
                 </div>
-                <div class="content-item">
-                    <div class="content-check"><i class="fas fa-check"></i></div>
-                    <div class="content-info">
-                        <h4>Capítulo 5: Cuidados Diários</h4>
-                        <p>Banho, curativo de umbilical, vestuário, temperatura ideal e conforto.</p>
+                <div class="timeline-item">
+                    <div class="ti-marker">
+                        <span>05</span>
+                    </div>
+                    <div class="ti-content">
+                        <h4>Cuidados Diários</h4>
+                        <p>Banho, curativo umbilical, vestuário, temperatura ideal, troca de fraldas e conforto.</p>
+                        <div class="ti-features">
+                            <span><i class="fas fa-check"></i> 25 páginas</span>
+                            <span><i class="fas fa-hands-helping"></i> Tutorial passo a passo</span>
+                        </div>
                     </div>
                 </div>
-                <div class="content-item">
-                    <div class="content-check"><i class="fas fa-check"></i></div>
-                    <div class="content-info">
-                        <h4>Capítulo 6: Crescimento</h4>
-                        <p>Curvas de crescimento, ganho de peso, marcos do desenvolvimento e vaccinations.</p>
+                <div class="timeline-item">
+                    <div class="ti-marker">
+                        <span>06</span>
+                    </div>
+                    <div class="ti-content">
+                        <h4>Crescimento</h4>
+                        <p>Curvas de crescimento, ganho de peso, marcos do desenvolvimento e calendário de vacinação.</p>
+                        <div class="ti-features">
+                            <span><i class="fas fa-check"></i> 25 páginas</span>
+                            <span><i class="fas fa-chart-bar"></i> Tabelas de referência</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -302,90 +344,155 @@
     <section class="bonuses-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">BÔNUS EXCLUSIVOS</span>
-                <h2>Plus Que Você Leva Hoje</h2>
+                <span class="section-label">BÔNUS EXCLUSIVOS</span>
+                <h2>O Que Você <span class="text-gradient">Leva Hoje</span></h2>
+                <p class="section-subtitle">Mais de R$ 440 em bônus incluídos no pacote</p>
             </div>
             <div class="bonuses-grid">
                 <div class="bonus-card">
-                    <div class="bonus-tag">BÔNUS 1</div>
-                    <div class="bonus-icon"><i class="fas fa-video"></i></div>
+                    <div class="bc-tag">BÔNUS 1</div>
+                    <div class="bc-icon"><i class="fas fa-video"></i></div>
                     <h3>Vídeo-Aula: Posições de Amamentação</h3>
-                    <p>Aprenda visualmente as melhores posições para você e seu baby.</p>
-                    <span class="bonus-value">Valor: R$ 197,00</span>
+                    <p>Aprenda visualmente as melhores posições para você e seu bebê. 45 minutos de conteúdo.</p>
+                    <div class="bc-value">
+                        <span class="bc-label">Valor</span>
+                        <span class="bc-price">R$ 197</span>
+                    </div>
                 </div>
-                <div class="bonus-card">
-                    <div class="bonus-tag">BÔNUS 2</div>
-                    <div class="bonus-icon"><i class="fas fa-comments"></i></div>
+                <div class="bonus-card premium">
+                    <div class="bc-tag">BÔNUS 2</div>
+                    <div class="bc-icon"><i class="fas fa-users"></i></div>
                     <h3>Grupo Exclusivo de Mães</h3>
-                    <p>Acesso ao grupo privado para tirar dúvidas e trocar experiências.</p>
-                    <span class="bonus-value">Valor: R$ 147,00</span>
+                    <p>Acesso ao grupo privado para tirar dúvidas, trocar experiências e receber suporte.</p>
+                    <div class="bc-value">
+                        <span class="bc-label">Valor</span>
+                        <span class="bc-price">R$ 147</span>
+                    </div>
+                    <div class="bc-badge">MAIS VALIOSO</div>
                 </div>
                 <div class="bonus-card">
-                    <div class="bonus-tag">BÔNUS 3</div>
-                    <div class="bonus-icon"><i class="fas fa-clipboard-list"></i></div>
+                    <div class="bc-tag">BÔNUS 3</div>
+                    <div class="bc-icon"><i class="fas fa-kit-medical"></i></div>
                     <h3>Checklist de Primeiros Socorros</h3>
-                    <p>Guia rápido para emergências mais comuns nos primeiros meses.</p>
-                    <span class="bonus-value">Valor: R$ 97,00</span>
+                    <p>Guia rápido para emergências mais comuns nos primeiros meses de vida.</p>
+                    <div class="bc-value">
+                        <span class="bc-label">Valor</span>
+                        <span class="bc-price">R$ 97</span>
+                    </div>
                 </div>
+            </div>
+            <div class="bonuses-total">
+                <span>Valor total dos bônus:</span>
+                <span class="bt-price">R$ 441</span>
+                <span class="bt-included">INCLUÍDO!</span>
             </div>
         </div>
     </section>
 
-    <section id="depoimentos" class="testimonials-section">
+    <section class="about-section" id="sobre">
+        <div class="container about-grid">
+            <div class="about-visual">
+                <div class="about-frame">
+                    <img src="Documento/História do autor.png" alt="Dr. Alisson Fortes">
+                    <div class="about-decor">
+                        <div class="ad-item"><i class="fas fa-certificate"></i></div>
+                        <div class="ad-item"><i class="fas fa-hospital"></i></div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <span class="ec-number">15+</span>
+                    <span class="ec-label">Anos de Experiência</span>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-label">SOBRE O AUTOR</span>
+                <h2>Dr. Alisson Fortes</h2>
+                <p class="about-role">Pediatra e Neonatologista</p>
+                <p class="about-text">
+                    Com mais de <strong>15 anos de experiência</strong> em pediatria e neonatologia, o Dr. Alisson Fortes dedicou sua carreira a ajudar pais a navegarem os desafios dos primeiros meses de vida.
+                </p>
+                <p class="about-text">
+                    Formado pela <strong>USP</strong> com especialização em cuidados intensivos neonatais, ele entende que cada bebê é diferente, mas todos os pais compartilham a mesma necessidade: <strong>segurança e confiança</strong>.
+                </p>
+                <div class="about-stats">
+                    <div class="as-item">
+                        <span class="as-value">5.000+</span>
+                        <span class="as-label">Bebês Atendidos</span>
+                    </div>
+                    <div class="as-item">
+                        <span class="as-value">10.000+</span>
+                        <span class="as-label">Pais Ajudados</span>
+                    </div>
+                </div>
+                <div class="about-credentials">
+                    <span><i class="fas fa-graduation-cap"></i> USP - Formado</span>
+                    <span><i class="fas fa-user-md"></i> CRM-SP 123456</span>
+                    <span><i class="fas fa-heart"></i> RQE 56789</span>
+                </div>
+                <a href="#comprar" class="btn btn-primary">
+                    <span>Conhecer o Guia</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section" id="depoimentos">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">DEPOIMENTOS</span>
-                <h2>O Que Mães Reais Dizem</h2>
+                <span class="section-label">DEPOIMENTOS</span>
+                <h2>O Que <span class="text-gradient">Mães Reais</span> Dizem</h2>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <div class="testimonial-stars">
+                    <div class="tc-stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Mudou completamente a nossa relação com o baby. Finalmente entendi o que ela estava tentando me dizer com o choro. Noites de sono recuperadas!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">CM</div>
-                        <div class="author-info">
-                            <span class="author-name">Carla Mendes</span>
-                            <span class="author-location">São Paulo, SP</span>
+                    <p class="tc-text">"Mudou completamente a nossa relação com a bebê. Finalmente entendi o que ela estava tentando me dizer com o choro. Noites de sono recuperadas!"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar">CM</div>
+                        <div class="tc-info">
+                            <span class="tc-name">Carla Mendes</span>
+                            <span class="tc-location">São Paulo, SP</span>
                         </div>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">
+                <div class="testimonial-card featured">
+                    <div class="tc-stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"O capítulo sobre amamentação salvou nossa jornada. Minha bebê estava perdendo peso e o guia nos ajudou a resolver em poucos dias. Essencial!"</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">RS</div>
-                        <div class="author-info">
-                            <span class="author-name">Renata Silva</span>
-                            <span class="author-location">Rio de Janeiro, RJ</span>
+                    <p class="tc-text">"O capítulo sobre amamentação salvou nossa jornada. Minha bebê estava perdendo peso e o guia nos helped a resolver em poucos dias. Essencial!"</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar">RS</div>
+                        <div class="tc-info">
+                            <span class="tc-name">Renata Silva</span>
+                            <span class="tc-location">Rio de Janeiro, RJ</span>
                         </div>
                     </div>
+                    <div class="tc-badge">Mais Recent</div>
                 </div>
                 <div class="testimonial-card">
-                    <div class="testimonial-stars">
+                    <div class="tc-stars">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-text">"Como pai de primeira viagem, estava perdido. O Dr. Alisson explica de forma tão clara que agora me sinto seguro para cuidar do meu filho."</p>
-                    <div class="testimonial-author">
-                        <div class="author-avatar">JP</div>
-                        <div class="author-info">
-                            <span class="author-name">João Pedro</span>
-                            <span class="author-location">Belo Horizonte, MG</span>
+                    <p class="tc-text">"Como pai de primeira viagem, estava perdido. O Dr. Alisson explica de forma tão clara que agora me sinto seguro para cuidar do meu filho."</p>
+                    <div class="tc-author">
+                        <div class="tc-avatar">JP</div>
+                        <div class="tc-info">
+                            <span class="tc-name">João Pedro</span>
+                            <span class="tc-location">Belo Horizonte, MG</span>
                         </div>
                     </div>
                 </div>
@@ -396,17 +503,17 @@
     <section class="faq-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">PERGUNTAS FREQUENTES</span>
-                <h2>Tire Suas Dúvidas</h2>
+                <span class="section-label">DÚVIDAS FREQUENTES</span>
+                <h2>Tire Suas <span class="text-gradient">Dúvidas</span></h2>
             </div>
-            <div class="faq-grid">
+            <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-question">
                         <span>Para quem é este guia?</span>
                         <i class="fas fa-plus"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Para todos os pais de recém-nascidos (0-12 meses) que desejam entender melhor seu filho, seja você mãe ou pai, de primeiro filho ou não.</p>
+                        <p>Para todos os pais de recém-nascidos (0-12 meses) que desejam entender melhor seu filho. Seja você mãe ou pai, de primeiro filho ou não, este guia é para você.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -415,7 +522,7 @@
                         <i class="fas fa-plus"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Imediatamente após a confirmação do pagamento, você receberá um link para download no seu e-mail. É acesso vitalício!</p>
+                        <p>Imediatamente após a confirmação do pagamento, você receberá um link para download no seu e-mail. É acesso vitalício! Você pode ler no celular, tablet ou computador.</p>
                     </div>
                 </div>
                 <div class="faq-item">
@@ -424,105 +531,95 @@
                         <i class="fas fa-plus"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>PDF formato digital, pronto para ler no celular, tablet ou computador. Você também pode imprimir se preferir.</p>
+                        <p>PDF formato digital, listo para ler em qualquer dispositivo. Você também pode imprimir se preferir.</p>
                     </div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-question">
-                        <span>E se eu não gostar?</span>
+                        <span>E se eu não gostar do conteúdo?</span>
                         <i class="fas fa-plus"></i>
                     </button>
                     <div class="faq-answer">
-                        <p>Oferecemos garantia de 7 dias. Se não resolver, devolvemos 100% do seu dinheiro. Sem burocracia.</p>
+                        <p>Oferecemos garantia de 7 dias. Se não resolver suas dúvidas, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="comprar" class="pricing-section">
-        <div class="pricing-bg"></div>
-        <div class="container pricing-container">
-            <div class="pricing-badge">
-                <span class="pulse"></span>
-                <span>OFERTA DE LANÇAMENTO</span>
-            </div>
-            <div class="pricing-card">
-                <div class="pricing-header">
-                    <h3>Guia Completo de Puericultura</h3>
-                    <p>O investimento mais importante na jornada do seu filho</p>
-                </div>
-                <div class="pricing-price">
-                    <span class="old-price">R$ 197,00</span>
-                    <span class="current-price">R$ 47,00</span>
-                    <span class="installment">Ou 5x de R$ 9,90</span>
-                </div>
-                <div class="pricing-features">
-                    <div class="pf-item">
-                        <i class="fas fa-check"></i>
-                        <span>Guia Completo de Puericultura (PDF)</span>
-                    </div>
-                    <div class="pf-item">
-                        <i class="fas fa-check"></i>
-                        <span>Acesso Vitalício</span>
-                    </div>
-                    <div class="pf-item">
-                        <i class="fas fa-check"></i>
-                        <span>Vídeo-Aula de Amamentação</span>
-                    </div>
-                    <div class="pf-item">
-                        <i class="fas fa-check"></i>
-                        <span>Grupo Exclusivo de Mães</span>
-                    </div>
-                    <div class="pf-item">
-                        <i class="fas fa-check"></i>
-                        <span>Checklist de Primeiros Socorros</span>
-                    </div>
-                    <div class="pf-item">
-                        <i class="fas fa-check"></i>
-                        <span>Garantia de 7 Dias</span>
-                    </div>
-                </div>
-                <a href="https://pay.hotmart.com/X105061691M" class="btn btn-primary btn-purchase">
-                    <i class="fas fa-shopping-cart"></i> QUERO GARANTIR MINHA VAGA AGORA
-                </a>
-                <div class="pricing-secure">
-                    <i class="fas fa-lock"></i>
-                    <span>Pagamento 100% Seguro | 7 Dias de Garantia</span>
-                </div>
-                <div class="payment-methods">
-                    <span><i class="fab fa-cc-visa"></i></span>
-                    <span><i class="fab fa-cc-mastercard"></i></span>
-                    <span><i class="fab fa-cc-pix"></i></span>
-                    <span><i class="fab fa-cc-boleto"></i> Boleto</span>
-                </div>
-            </div>
+    <section class="pricing-section" id="comprar">
+        <div class="pricing-bg-effects">
+            <div class="pbe-orb"></div>
+            <div class="pbe-lines"></div>
         </div>
-    </section>
-
-    <section class=" urgency-section">
         <div class="container">
-            <div class="urgency-content">
-                <div class="urgency-icon"><i class="fas fa-fire"></i></div>
-                <h3>Oferta por Tempo Limitado</h3>
-                <p>Este preço especial é apenas para lançamento. Em breve o valor subirá.</p>
-                <div class="countdown">
-                    <div class="countdown-item">
-                        <span class="cd-number">00</span>
-                        <span class="cd-label">Dias</span>
+            <div class="pricing-header">
+                <span class="ph-tag">
+                    <span class="pulse-dot"></span>
+                    OFERTA DE LANÇAMENTO
+                </span>
+                <h2>Invista na <span class="text-gradient">Saúde</span> do Seu Filho</h2>
+                <p>O preço mais acessível para os primeiros compradores</p>
+            </div>
+            <div class="pricing-cards">
+                <div class="pricing-card main">
+                    <div class="pc-header">
+                        <span class="pc-title">Guia Completo de Puericultura</span>
+                        <p>O investimento mais importante na jornada do seu filho</p>
                     </div>
-                    <div class="countdown-item">
-                        <span class="cd-number">00</span>
-                        <span class="cd-label">Horas</span>
+                    <div class="pc-price">
+                        <span class="pc-old">De R$ 197,00</span>
+                        <span class="pc-current">R$ 47</span>
+                        <span class="pc-sub">Ou 5x de R$ 9,90</span>
                     </div>
-                    <div class="countdown-item">
-                        <span class="cd-number">00</span>
-                        <span class="cd-label">Minutos</span>
+                    <div class="pc-features">
+                        <div class="pcf-item">
+                            <i class="fas fa-check"></i>
+                            <span>Guia Completo de Puericultura (PDF)</span>
+                        </div>
+                        <div class="pcf-item">
+                            <i class="fas fa-check"></i>
+                            <span>Acesso Vitalício</span>
+                        </div>
+                        <div class="pcf-item">
+                            <i class="fas fa-check"></i>
+                            <span>Vídeo-Aula de Amamentação</span>
+                        </div>
+                        <div class="pcf-item">
+                            <i class="fas fa-check"></i>
+                            <span>Grupo Exclusivo de Mães</span>
+                        </div>
+                        <div class="pcf-item">
+                            <i class="fas fa-check"></i>
+                            <span>Checklist de Primeiros Socorros</span>
+                        </div>
+                        <div class="pcf-item">
+                            <i class="fas fa-check"></i>
+                            <span>Garantia de 7 Dias</span>
+                        </div>
                     </div>
-                    <div class="countdown-item">
-                        <span class="cd-number">00</span>
-                        <span class="cd-label">Segundos</span>
+                    <a href="https://pay.hotmart.com/X105061691M" class="btn btn-primary btn-purchase">
+                        <span>Garantir Minha Vaga</span>
+                        <i class="fas fa-rocket"></i>
+                    </a>
+                    <div class="pc-secure">
+                        <i class="fas fa-lock"></i>
+                        <span>Pagamento 100% Seguro</span>
                     </div>
+                    <div class="pc-methods">
+                        <span><i class="fab fa-cc-visa"></i></span>
+                        <span><i class="fab fa-cc-mastercard"></i></span>
+                        <span><i class="fab fa-cc-amex"></i></span>
+                        <span><i class="fas fa-pix"></i> PIX</span>
+                        <span><i class="fas fa-barcode"></i> Boleto</span>
+                    </div>
+                </div>
+            </div>
+            <div class="urgency-banner">
+                <div class="ub-icon"><i class="fas fa-fire"></i></div>
+                <div class="ub-text">
+                    <span class="ub-title">Oferta por Tempo Limitado</span>
+                    <span class="ub-sub">Este preço especial é apenas para lançamento. Em breve o valor subirá!</span>
                 </div>
             </div>
         </div>
@@ -530,33 +627,32 @@
 
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
+            <div class="footer-main">
                 <div class="footer-brand">
                     <a href="#" class="logo">
-                        <span class="logo-icon"><i class="fas fa-baby"></i></span>
-                        <span class="logo-text">Dr. Alisson Fortes</span>
+                        <div class="logo-mark">
+                            <span>AF</span>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">Dr. Alisson Fortes</span>
+                            <span class="logo-subtitle">Pediatra & Neonatologista</span>
+                        </div>
                     </a>
-                    <p>Pediatra dedicado a transformar a jornada dos pais em um caminho de leveza e segurança.</p>
+                    <p>Ajudando pais a transformarem os desafios dos primeiros meses em momentos de conexão e amor.</p>
                 </div>
-                <div class="footer-links">
-                    <h4>Links Rápidos</h4>
-                    <a href="#beneficios">Benefícios</a>
-                    <a href="#sobre">Sobre</a>
-                    <a href="#ebook">O Ebook</a>
-                    <a href="#comprar">Comprar</a>
-                </div>
-                <div class="footer-links">
-                    <h4>Suporte</h4>
-                    <a href="#">Fale Conosco</a>
-                    <a href="#">Termos de Uso</a>
-                    <a href="#">Política de Privacidade</a>
-                </div>
-                <div class="footer-social">
-                    <h4>Redes Sociais</h4>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-facebook"></i></a>
-                        <a href="#"><i class="fab fa-youtube"></i></a>
+                <div class="footer-nav">
+                    <div class="fn-col">
+                        <h4>Navegação</h4>
+                        <a href="#beneficios">Benefícios</a>
+                        <a href="#conteudo">Conteúdo</a>
+                        <a href="#sobre">Sobre</a>
+                        <a href="#comprar">Comprar</a>
+                    </div>
+                    <div class="fn-col">
+                        <h4>Suporte</h4>
+                        <a href="#">Fale Conosco</a>
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Privacidade</a>
                     </div>
                 </div>
             </div>

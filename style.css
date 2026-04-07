@@ -1,33 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 
 :root {
-    --primary: #0D9488;
-    --primary-dark: #0F766E;
-    --primary-light: #14B8A6;
-    --secondary: #F59E0B;
-    --secondary-dark: #D97706;
-    --accent: #8B5CF6;
-    --dark: #0F172A;
-    --dark-secondary: #1E293B;
-    --light: #F8FAFC;
-    --light-secondary: #F1F5F9;
+    --primary: #1A237E;
+    --primary-dark: #0D1642;
+    --primary-light: #283593;
+    --secondary: #FF8F00;
+    --secondary-dark: #E65100;
+    --secondary-light: #FFB300;
+    --accent: #FFB300;
+    --dark: #0D1642;
+    --dark-secondary: #1A237E;
+    --light: #E3F2FD;
+    --light-secondary: #BBDEFB;
     --white: #FFFFFF;
-    --gray: #64748B;
-    --gray-light: #94A3B8;
-    --text-dark: #0F172A;
-    --text-medium: #334155;
-    --text-light: #64748B;
+    --gray: #546E7A;
+    --gray-light: #78909C;
+    --text-dark: #0D1642;
+    --text-medium: #1A237E;
+    --text-light: #546E7A;
     
-    --gradient-primary: linear-gradient(135deg, #0D9488 0%, #14B8A6 100%);
-    --gradient-accent: linear-gradient(135deg, #8B5CF6 0%, #A855F7 100%);
-    --gradient-dark: linear-gradient(180deg, #0F172A 0%, #1E293B 100%);
-    --gradient-light: linear-gradient(180deg, #F8FAFC 0%, #F1F5F9 100%);
+    --gradient-primary: linear-gradient(135deg, #1A237E 0%, #283593 100%);
+    --gradient-secondary: linear-gradient(135deg, #FF8F00 0%, #FFB300 100%);
+    --gradient-accent: linear-gradient(135deg, #FF8F00 0%, #FFB300 100%);
+    --gradient-dark: linear-gradient(180deg, #0D1642 0%, #1A237E 100%);
+    --gradient-light: linear-gradient(180deg, #E3F2FD 0%, #BBDEFB 100%);
     
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
     --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.05);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
     --shadow-xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
-    --shadow-glow: 0 0 40px rgba(13, 148, 136, 0.15);
+    --shadow-glow: 0 0 40px rgba(26, 35, 126, 0.15);
     
     --radius-sm: 8px;
     --radius-md: 12px;
@@ -152,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 .orb-1 {
     width: 600px;
     height: 600px;
-    background: linear-gradient(135deg, rgba(13, 148, 136, 0.3) 0%, rgba(20, 184, 166, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(26, 35, 126, 0.3) 0%, rgba(40, 54, 147, 0.1) 100%);
     top: -200px;
     right: -100px;
     animation: floatOrb 20s ease-in-out infinite;
@@ -161,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 .orb-2 {
     width: 400px;
     height: 400px;
-    background: linear-gradient(135deg, rgba(139, 92, 246, 0.2) 0%, rgba(168, 85, 247, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(255, 143, 0, 0.2) 0%, rgba(255, 179, 0, 0.1) 100%);
     bottom: 20%;
     left: -100px;
     animation: floatOrb 25s ease-in-out infinite reverse;
@@ -170,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 .orb-3 {
     width: 300px;
     height: 300px;
-    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2) 0%, rgba(217, 119, 6, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(255, 143, 0, 0.2) 0%, rgba(230, 81, 0, 0.1) 100%);
     bottom: -100px;
     right: 20%;
     animation: floatOrb 18s ease-in-out infinite;

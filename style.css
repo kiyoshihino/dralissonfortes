@@ -1994,7 +1994,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fe-1 { top: 5%; left: -50px; }
-.fe-2 { bottom: 30%; right: -10px; }
+.fe-2 { bottom: 30%; right: -140px; }
 .fe-3 { bottom: 5%; left: -30px; }
 
 .fe-icon {
@@ -2019,7 +2019,7 @@ h1, h2, h3, h4, h5, h6 {
     .ebook-cover { max-height: 520px; }
     .ebook-showcase { max-width: 340px; }
     .fe-1 { left: -20px; }
-    .fe-2 { right: -10px; }
+    .fe-2 { right: -110px; }
 }
 
 @media (max-width: 1024px) {

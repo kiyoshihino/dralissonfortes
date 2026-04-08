@@ -2298,6 +2298,11 @@ h1, h2, h3, h4, h5, h6 {
         border-radius: var(--radius-xl) !important;
     }
 
+    .about-credentials {
+        justify-content: center !important;
+        margin-bottom: 32px !important;
+    }
+
     .experience-card {
         bottom: 10px !important;
         left: 10px !important;

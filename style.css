@@ -2083,16 +2083,16 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .hero-content {
-        display: block !important;
-        width: 100% !important;
+        display: contents !important;
     }
     
     .hero-visual-desktop { display: none !important; }
-    .hero-visual-mobile { 
+    .hero-visual { 
         display: flex !important;
-        margin: 0 0 32px 0 !important;
-        width: 100vw !important;
-        max-width: 100vw !important;
+        margin: 0 0 40px 0 !important;
+        width: 100% !important;
+        order: 3 !important;
+        padding: 0 !important;
     }
     
     .hero-badge { 
@@ -2140,9 +2140,6 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0.9;
     }
     
-    .hero-visual {
-        padding: 0 !important;
-    }
     
     .ebook-showcase {
         width: 100% !important;

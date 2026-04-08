@@ -2335,8 +2335,8 @@ h1, h2, h3, h4, h5, h6 {
         box-shadow: 0 10px 30px -10px rgba(44, 62, 24, 0.1) !important;
         display: flex !important;
         flex-direction: column !important;
-        align-items: flex-start !important;
-        text-align: left !important;
+        align-items: center !important;
+        text-align: center !important;
         position: relative !important;
         border-radius: var(--radius-xl) !important;
     }
@@ -2375,25 +2375,31 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     .bi-content ul {
-        text-align: left !important;
+        text-align: center !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
         list-style: none !important;
         padding: 0 !important;
     }
 
     .bi-content ul li {
         margin-bottom: 10px !important;
-        padding-left: 24px !important;
+        padding-left: 0 !important;
         position: relative !important;
         font-size: 0.95rem !important;
         color: var(--text-medium) !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
     }
 
     .bi-content ul li::before {
         content: "\f00c";
         font-family: "Font Awesome 6 Free";
         font-weight: 900;
-        position: absolute;
-        left: 0;
+        position: relative !important;
+        margin-right: 8px !important;
         color: var(--primary);
         font-size: 0.8rem;
     }

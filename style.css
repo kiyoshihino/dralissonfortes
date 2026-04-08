@@ -2275,12 +2275,36 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%;
     }
     
-    .about-frame img {
-        width: 260px;
-        height: 350px;
-        object-fit: cover;
-        border-radius: 16px;
+    .about-frame {
+        background: none !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        margin: 0 auto !important;
     }
+
+    .about-frame::before {
+        display: none !important;
+    }
+
+    .about-decor {
+        display: none !important;
+    }
+
+    .about-frame img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100% !important;
+        object-fit: cover !important;
+        border-radius: var(--radius-xl) !important;
+    }
+
+    .experience-card {
+        bottom: 10px !important;
+        left: 10px !important;
+        padding: 16px 24px !important;
+        transform: scale(0.85) !important;
+    }
+
     
     .footer-content {
         display: flex;

@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-    document.querySelectorAll('.problem-card, .benefit-item, .timeline-item, .testimonial-card').forEach(el => {
+    document.querySelectorAll('.problem-card, .benefit-item, .chapter-item, .testimonial-card, .hero-content > *, .hero-visual, .section-header > *, .hero-title .title-line, .hero-title .title-main').forEach(el => {
         observer.observe(el);
     });
 });
